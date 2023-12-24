@@ -280,9 +280,9 @@ function appBuilder(director) {
   director.setProductionLine(mastodonSedanProductionLine);
 
   director.constructCvtEdition();
-  const mastodnSedanCvt = mastodonSedanProductionLine.build();
+  const mastodonSedanCvt = mastodonSedanProductionLine.build();
   console.log('--- Mastodon Sedan CVT ---\n');
-  console.log(mastodnSedanCvt);
+  console.log(mastodonSedanCvt);
 
   director.constructSignatureEdition();
   const mastodonSedanSignature = mastodonSedanProductionLine.build();
